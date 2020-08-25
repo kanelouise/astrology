@@ -20,15 +20,10 @@ def moon_phase():
   moon_sign = input ("What is your moon sign? ")
   sun_sign_index = signs.index(sun_sign)
   sun_list = signs[sun_sign_index:] + signs[:sun_sign_index]
-  print(sun_sign_index)
-  print(sun_list)
   sun_sign_index = sun_list.index(sun_sign)
-  print(sun_sign_index)
   moon_sign_index = sun_list.index(moon_sign)
-  print(moon_sign_index)
   global calc
   calc = 0 - moon_sign_index
-  print(calc)
   if calc == 6:
     return("You were born during a full moon.")
   elif calc == -6:
@@ -37,10 +32,4 @@ def moon_phase():
     return("You were not born during a full moon.")
   return(sign_calc)
 
-
-#want to create a list that holds the values of 
-def sign_calc(calc):
-  global sign_calc
-  sign_calc = []
-  sign_calc.append(calc)
 
