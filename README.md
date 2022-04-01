@@ -15,3 +15,5 @@ This script was built using Python 3x and is not compatible with Python 2.
 2. Extend the number of placements calculated.
 3. Calculate (crudely) a person's  midheaven and descendant.
 4. Use Django to create a simple front-end to make the program more pleasant than running it from the terminal.
+5. In creating a frontend, it would be great for user input to have a dropdown menu, that way there are fewer ways that user input could result in an error.
+6. Add error messages and hints to common misspellings. Also, prompt users to use correct spellings.
